@@ -8,6 +8,7 @@
 
 html,
 body {
+    overflow: hidden;
     background-color: var(--bg);
     color: var(--color);
     margin: 0;
@@ -116,6 +117,9 @@ button {
 }
 
 @media only screen and (max-width: 770px) {
+    body{
+        overflow: scroll;
+    }
     .nav-main {
         height: fit-content;
     }
