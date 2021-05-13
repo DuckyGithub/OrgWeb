@@ -116,9 +116,21 @@ button {
     font-size: 30px;
 }
 
+.bar{
+    background-color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    margin-right: 7.5%;
+    text-align: center;
+}
+
 @media only screen and (max-width: 770px) {
     body{
-        overflow: scroll;
+        overflow-y: scroll;
     }
     .nav-main {
         height: fit-content;
@@ -128,8 +140,6 @@ button {
         justify-content: center;
         align-items: center;
         width: 100%;
-        text-underline-offset: 2px;
-        text-decoration: underline;
     }
     .nav-first {
         padding-left: 0;
@@ -140,6 +150,13 @@ button {
   }
 
 @media only screen and (max-width: 726px) {
+    td, th{
+        font-size: 15px;
+    }
+    button{
+        padding: 1px 5px 1px 5px;
+        margin: 0;
+    }
     .card{
         margin-left: 7.5%;
         margin-right: 2.5%;
