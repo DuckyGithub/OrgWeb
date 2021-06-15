@@ -90,16 +90,16 @@ tr:nth-child(even){
 }
 
 
-button {
-    font-weight: 400;
+.button {
+    font-weight: 600;
     font-family: 'Montserrat' sans-serif; 
-    background-color: green;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    background-color: #00aa00;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     border-radius: 20px;
-    border: 2px solid green;
+    border: 2px solid #00aa00;
 }
 
 .card{
